@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "993801134773",
+    "firebase_url": "https://ultimaprueba-3182a.firebaseio.com",
+    "project_id": "ultimaprueba-3182a",
+    "storage_bucket": "ultimaprueba-3182a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993801134773:android:023583e89864900ffe54fc",
+        "android_client_info": {
+          "package_name": "telnorapp.conexion_telnor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993801134773-ggf7avanhparvo2201bcovnqd6lropk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9bufUdF5-uZrgmKcgKj5KOVRcS6Oakp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993801134773-ggf7avanhparvo2201bcovnqd6lropk4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993801134773:android:d3d58c379e20b186fe54fc",
+        "android_client_info": {
+          "package_name": "telnorapp.telnor_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993801134773-clhnomguvo2f1tveomnm893440rr1e67.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "telnorapp.telnor_app",
+            "certificate_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+          }
+        },
+        {
+          "client_id": "993801134773-ggf7avanhparvo2201bcovnqd6lropk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9bufUdF5-uZrgmKcgKj5KOVRcS6Oakp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993801134773-ggf7avanhparvo2201bcovnqd6lropk4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993801134773:android:33bca9717171e961fe54fc",
+        "android_client_info": {
+          "package_name": "ultimaprubea.flutter_app_last"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993801134773-akml2reo5ur6pftedhllqg47qq6su8f8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ultimaprubea.flutter_app_last",
+            "certificate_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+          }
+        },
+        {
+          "client_id": "993801134773-ggf7avanhparvo2201bcovnqd6lropk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9bufUdF5-uZrgmKcgKj5KOVRcS6Oakp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993801134773-ggf7avanhparvo2201bcovnqd6lropk4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
