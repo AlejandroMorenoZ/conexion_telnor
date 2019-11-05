@@ -9,6 +9,7 @@ import 'dart:async';
 import 'package:flutter_launch/flutter_launch.dart';
 import 'image.dart';
 import 'url.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 void main() => runApp(MyApp());
 
@@ -195,7 +196,7 @@ class _LoginPageState extends State<LoginPage> {
 
         FlatButton(
           child: Text("Log In Anonymously"),
-          onPressed: () {},
+          onPressed: () {Navigator.of(context).pushNamed("/home");},
         ),
       ];
     }
@@ -682,7 +683,7 @@ class _HomePageseState extends State<HomePagese> {
         child: ListView(
           children: <Widget>[
             new UserAccountsDrawerHeader(
-              accountName: new Text("Nombre del Empleado"),
+              accountName: new Text('${user._email}'),
               accountEmail: new Text("Puesto del Empleado"),
               decoration: new BoxDecoration(
                   image: new DecorationImage(
@@ -1500,7 +1501,9 @@ class _facebookState extends State<facebook> {
               Icons.home,
               semanticLabel: 'home',
             ),
-            onPressed: () {Navigator.of(context).pushNamed("/home");},
+            onPressed: () {
+              Navigator.of(context).pushNamed("/home");
+            },
           ),
         ],
       ),
@@ -1521,15 +1524,15 @@ class _facebookState extends State<facebook> {
               ),
             ),
 
-            BENEFICIO (Icons.calendar_today, 'Beneficios', ()=>{}),
-            Radars (Icons.gps_fixed, 'Radar', ()=>{}),
-            Work (Icons.portable_wifi_off, 'Mini AESI', ()=>{}),
-            Promotores (Icons.record_voice_over, 'Todos_Promotores', ()=>{}),
-            Directos (Icons.location_city, 'Directorio_Tiendas', ()=>{}),
-            Telnor (Icons.chat_bubble, 'Whatsapp Conexión', ()=>{}),
-            fb (Icons.chat_bubble, 'Facebook Conexión', ()=>{}),
-            Sugerencias (Icons.chat, 'Sugerencias', ()=>{}),
-            Sesion (Icons.power_settings_new, 'Cerrar Sesion', ()=>{}),
+            BENEFICIO(Icons.calendar_today, 'Beneficios', () => {}),
+            Radars(Icons.gps_fixed, 'Radar', () => {}),
+            Work(Icons.portable_wifi_off, 'Mini AESI', () => {}),
+            Promotores(Icons.record_voice_over, 'Todos_Promotores', () => {}),
+            Directos(Icons.location_city, 'Directorio_Tiendas', () => {}),
+            Telnor(Icons.chat_bubble, 'Whatsapp Conexión', () => {}),
+            fb(Icons.chat_bubble, 'Facebook Conexión', () => {}),
+            Sugerencias(Icons.chat, 'Sugerencias', () => {}),
+            Sesion(Icons.power_settings_new, 'Cerrar Sesion', () => {}),
           ],
         ),
       ),
@@ -1543,3 +1546,4 @@ class _facebookState extends State<facebook> {
     );
   }
 }
+
